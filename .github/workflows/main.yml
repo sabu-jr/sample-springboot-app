@@ -21,3 +21,7 @@ jobs:
         uses: stCarolas/setup-maven@v4.1
         with:
          maven-version: 3.5.4
+         
+      - name: action-maven
+        run:
+           mvn clean install
